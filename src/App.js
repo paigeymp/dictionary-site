@@ -7,10 +7,13 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary</h1>
+          <h1>
+            <span className="emoji">🔎</span>Dictionary
+            <hr />
+          </h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="wanderlust" />
         </main>
         <footer className="App-footer">
           <small>
