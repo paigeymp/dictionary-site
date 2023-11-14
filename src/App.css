@@ -10,6 +10,11 @@ a {
   color: blueviolet;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
 }
@@ -33,4 +38,15 @@ a {
   text-align: center;
   font-family: monospace;
   margin: 30px 0;
+}
+
+@media (max-width: 700px) {
+  .App-header h1 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+
+  .App-header .emoji {
+    display: none;
+  }
 }
